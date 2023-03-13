@@ -107,3 +107,78 @@ h2{
     aspect-ratio: 1.5;
     height: 450px;
 }
+
+/* fine header */
+
+/* main prima parte */
+
+.heading{
+    max-width: 800px;
+    margin-inline: auto;
+    margin-top: 7rem;
+    margin-bottom: 3rem;
+}
+
+h3{
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+/* main colonne */
+
+.basecolumn{
+    max-width: 800px;
+    margin-inline: auto;
+    display: flex;
+    gap: 1.5rem;
+}
+
+.column{
+    width: calc(100%/3);
+    border: 1px solid black;
+}
+
+.columnhead{
+    border: 1px solid black;
+    text-align: center;
+    padding: 1rem;
+}
+
+.smallcontainer{
+    width: 200px;
+    height: 400px;
+    margin-inline: auto;
+}
+
+h4{
+    margin: 1rem 0 1.5rem 0;
+    font-size: 20px;
+}
+
+.price{
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.duration{
+    font-size: 12px;
+    color: #787878;
+}
+
+ul{
+    list-style: none;
+    padding-top: 1rem;
+    font-size: 14px;
+}
+
+li{
+    padding-top: 0.5rem;
+}
+
+.gratis{
+    text-decoration: none;
+    color: white;
+    background-color: #0061FF;
+    font-size: 12px;
+}
+

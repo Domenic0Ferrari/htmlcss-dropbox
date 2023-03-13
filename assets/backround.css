@@ -1,1 +1,13 @@
+.heading{
+    background-color: orange;
+}
+
+.basecolumn{
+    background-color: blueviolet;
+    height: 500px;
+}
+
+.column{
+    background-color: salmon;
+}
 
