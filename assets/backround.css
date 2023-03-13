@@ -10,6 +10,14 @@
     background-color: salmon;
 } */
 
+.margine{
+    width: 50px;
+    height: 1px;
+    background-color: grey;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
 .orizzontaltitle{
     width: 800px;
     border: 1px solid black;
@@ -34,8 +42,8 @@
 
 .contatta{
     position: absolute;
-    top: 10px;
-    right: 10px;
+    top: 20px;
+    right: 20px;
     background-color: #0061FF;
     width: 200px;
     text-align: center;
