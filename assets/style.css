@@ -159,6 +159,10 @@ h4{
     font-size: 12px;
 }
 
+.list{
+    font-size: 12px;
+}
+
 .duration{
     font-size: 12px;
     color: #787878;
@@ -168,10 +172,15 @@ ul{
     list-style: none;
     padding-top: 1rem;
     font-size: 14px;
+    padding-bottom: 2rem;
 }
 
 li{
     padding-top: 0.5rem;
+}
+
+.fa-check{
+    color: blue;
 }
 
 .button{
