@@ -55,6 +55,8 @@ header{
     padding: 0.5rem 1rem 0.5rem 1rem;
 }
 
+/* fine navbar */
+
 .headcontainer{
     max-width: 1000px;
     margin-inline: auto;
@@ -63,17 +65,45 @@ header{
 
 h2{
     font-size: 4rem;
-    text-align: center;
     padding: 3rem 0 3rem 0;
 }
 
-.arrowdown{
-    color: black;
-    font-size: 40px;
+.contenitore{
+    width: 1000px;
+    height: 400px;
+    display: flex;
+}
+
+.headertext{
+    height: 400px;
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.prova{
+    background-color: #0061FF;
+    width: 60%;
+    text-align: center;
+    color: white;
+    padding: 0.5rem 0rem 0.5rem 0rem;
+    text-decoration: none;
 }
 
 .annulla{
     text-decoration: none;
     color: black;
+    width: 70%;
 }
 
+.arrowdown{
+    color: black;
+    font-size: 40px;
+    width: 15%;
+}
+
+.jumbo{
+    aspect-ratio: 1.5;
+    height: 450px;
+}
