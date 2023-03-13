@@ -1,0 +1,49 @@
+/* reset */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* header */
+
+#navbar{
+    height: 5rem;
+    background-color: orange;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navleft{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 2.5rem;
+    padding-left: 1rem;
+}
+
+.navright{
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 2.5rem;
+    padding-right: 3rem;
+}
+
+.nav{
+    color: #787878;
+    text-decoration: none;
+}
+
+.inizia{
+    text-decoration: none;
+    color: white;
+    background-color: #0061FF;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+}
