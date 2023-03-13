@@ -174,10 +174,19 @@ li{
     padding-top: 0.5rem;
 }
 
+.button{
+    background-color: #0061FF;
+    width: 100%;
+    text-align: center;
+    height: 30px;
+    line-height: 30px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
 .gratis{
     text-decoration: none;
     color: white;
-    background-color: #0061FF;
     font-size: 12px;
 }
 
