@@ -4,7 +4,7 @@
 
 .contenitore{
     width: 1000px;
-    background-color: blue;
+    /* background-color: blue; */
     height: 400px;
     display: flex;
 }
@@ -12,7 +12,6 @@
 .ciao{
     height: 400px;
     width: 450px;
-    background-color: tomato;
     display: flex;
     flex-direction: column;
     justify-content: space-between;

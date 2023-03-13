@@ -67,4 +67,13 @@ h2{
     padding: 3rem 0 3rem 0;
 }
 
+.arrowdown{
+    color: black;
+    font-size: 40px;
+}
+
+.annulla{
+    text-decoration: none;
+    color: black;
+}
 
