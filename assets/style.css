@@ -12,11 +12,18 @@ html{
 
 /* header */
 
+header{
+    background-color: #B4D0E7;
+}
+
 #navbar{
     height: 5rem;
-    background-color: orange;
     display: flex;
     justify-content: space-between;
+    background-color: white;
+    position: fixed;
+    right: 0;
+    left: 0;
 }
 
 .navleft{
@@ -47,3 +54,17 @@ html{
     background-color: #0061FF;
     padding: 0.5rem 1rem 0.5rem 1rem;
 }
+
+.headcontainer{
+    max-width: 1000px;
+    margin-inline: auto;
+    padding-top: 5rem;
+}
+
+h2{
+    font-size: 4rem;
+    text-align: center;
+    padding: 3rem 0 3rem 0;
+}
+
+
