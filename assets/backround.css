@@ -1,0 +1,35 @@
+
+
+.footer-box{
+    max-width: 1000px;
+    margin-inline: auto;
+    display: flex;
+    gap: 2rem;
+    padding-bottom: 2rem;
+}
+
+.footer-box::after{
+    margin-bottom: 1px solid white;
+}
+
+.colonna-1{
+    height: 100%;
+    flex: 1 0 calc(100% / 5 - 8rem);
+}
+
+.footer-list{
+    list-style: none;
+}
+
+.title-1{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 1rem;
+}
+
+.content-1{
+    color: white;
+    font-size: 13px;
+    padding-bottom: 0.5rem;
+}
