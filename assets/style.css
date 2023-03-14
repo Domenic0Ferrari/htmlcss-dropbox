@@ -263,11 +263,15 @@ h4{
 
 .container{
     max-width: 800px;
+}
+
+.uno{
     margin: 10rem 0;
-    margin-inline: auto;
     display: flex;
     align-items: flex-start;
     gap: 2rem;
+    margin-inline: auto;
+
 }
 
 .partner{
@@ -292,3 +296,36 @@ h4{
 }
 
 /* container con 6 img */
+
+.title{
+    max-width: 800px;
+    margin-inline: auto;
+    margin-bottom: 3rem;
+}
+
+.due{
+    margin-inline: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap:1rem;
+    margin-bottom: 10rem;
+}
+
+.card{
+    flex: 1 0 calc(100% / 3 - 2rem);
+}
+
+.cardimg{
+    width: 100%;
+}
+
+/* sezione titolo + link */
+
+.client{
+    width: 500px;
+}
+
+.scopri{
+    color: #0061FF;
+    font-size: 14px;
+}
