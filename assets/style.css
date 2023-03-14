@@ -392,11 +392,30 @@ h4{
 /* parte centrale */
 
 .center{
-    background-color: aqua;
+    background-color: #F5F5F5;
     padding-left: 2rem;
     display: flex;
     flex-direction: column;
     gap: 2rem;
-    height: 410px;
-    overflow: auto;
+    height: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.central-box{
+    padding: 3em;
+}
+
+.logo-central{
+    width: 250px;
+    margin-bottom: 4rem;
+}
+
+hr{
+    max-width: 100px;
+    margin-bottom: 4rem;
+}
+
+.lorem-central{
+    padding-bottom: 4rem;
 }
