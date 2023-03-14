@@ -432,7 +432,6 @@ hr{
     align-items: center;
 }
 
-
 .box-2{
     width:800px;
     display: flex;
@@ -443,4 +442,37 @@ h5{
     color: #600941;
     font-size: 35px;
     width: 50%;
+}
+
+/* domande frequenti */
+
+.box-3{
+    width: 100%;
+    background-color: white;
+    margin-bottom: 10rem;
+}
+
+.small-box{
+    width: 800px;
+    margin-top: 10rem;
+    margin-inline: auto;
+}
+
+.line-1{
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 3rem;
+}
+
+.line-2{
+    border-top: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+}
+
+.line-3{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: space-between;
 }
