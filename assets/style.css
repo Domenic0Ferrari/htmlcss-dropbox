@@ -165,6 +165,11 @@ h4{
     color: #787878;
 }
 
+.column-list{
+    display: flex;
+    gap: .5rem;
+}
+
 .button{
     background-color: #0061FF;
     width: 100%;
