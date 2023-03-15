@@ -466,29 +466,41 @@ h5{
 }
 
 .line-2{
-    height: 80px;
-    font-size: 0.8em;
-    font-weight: bold;
+    min-height: 80px;
+    line-height: 80px;
     border-top: 1px solid black;
+}
+
+.underline-2{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    font-weight: bold;
+    font-size: 0.8em;
 }
 
 .line-3{
-    height: 80px;
-    font-size: 0.8em;
-    font-weight: bold;
+    min-height: 80px;
+    line-height: 80px;
     border-top: 1px solid black;
     border-bottom: 1px solid black;
+}
+
+.underline-3{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    font-weight: bold;
+    font-size: 0.8em;
 }
 
 .fa-circle-arrow-down{
     color: black;
     margin-right: 1rem;
+}
+
+.hidden-line{
+    display: none;
 }
 
 /* footer */
@@ -570,11 +582,11 @@ footer{
 }
 
 .trova:hover{
-    background-color: red;
+    border: 2px solid grey;
 }
 
 .prova-gratuita:hover{
-    background-color: red;
+    border: 2px solid grey;
 }
 
 /* radio-button */
@@ -611,4 +623,14 @@ input{
 
 .yellow:hover{
     border: 10px solid gold;
+}
+
+/* testo nascosto */
+
+.line-2:hover .hidden-line{
+    display: block;
+}
+
+.line-3:hover .hidden-line{
+    display: block;
 }
