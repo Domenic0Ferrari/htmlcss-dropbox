@@ -170,20 +170,16 @@ h4{
     gap: .5rem;
 }
 
-.button{
-    background-color: #0061FF;
-    width: 100%;
-    text-align: center;
-    height: 30px;
-    line-height: 30px;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-}
-
-.gratis{
+.button-2{
     text-decoration: none;
     color: white;
     font-size: 12px;
+    background-color: #0061FF;
+    display: block;
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding: 0.5rem 1rem;
 }
 
 .margine{
@@ -211,13 +207,6 @@ h4{
 
 .fa-check{
     color: blue;
-}
-
-
-.gratis{
-    text-decoration: none;
-    color: white;
-    font-size: 12px;
 }
 
 /* fine colonne */
@@ -248,7 +237,7 @@ h4{
     margin-top: 1rem;
 }
 
-.contatta{
+.button-3{
     position: absolute;
     top: 20px;
     right: 20px;
@@ -258,6 +247,7 @@ h4{
     color: white;
     padding: 1rem;
     font-size: 13px;
+    text-decoration: none;
 }
 
 /* fine blocco orizzontale */
@@ -356,7 +346,6 @@ h4{
 
 .green{
     background-color: #A2D39B;
-    border: 10px solid #d0e9cc;
 }
 
 .bordeaux{
@@ -559,4 +548,67 @@ footer{
     color: white;
     text-decoration: none;
     font-size: 14px;
+}  
+
+/* effetti di hover */
+
+/* pulsanti */
+
+.button-1:hover{
+    background-color: #0061FF;
+    opacity: 0.6;
+}
+
+.button-2:hover{
+    background-color: #0061FF;
+    opacity: 0.6;
+}
+
+.button-3:hover{
+    background-color: #0061FF;
+    opacity: 0.6;
+}
+
+.trova:hover{
+    background-color: red;
+}
+
+.prova-gratuita:hover{
+    background-color: red;
+}
+
+/* radio-button */
+
+input{
+    cursor: pointer;
+}
+
+/* square */
+
+.green:hover{
+    border: 10px solid #d0e9cc;
+}
+
+.bordeaux:hover{
+    border: 10px solid brown;
+}
+
+.cyan:hover{
+    border: 10px solid blue;
+}
+
+.lightred:hover{
+    border: 10px solid salmon;
+}
+
+.red:hover{
+    border: 10px solid violet;
+}
+
+.blue:hover{
+    border: 10px solid cyan;
+}
+
+.yellow:hover{
+    border: 10px solid gold;
 }
