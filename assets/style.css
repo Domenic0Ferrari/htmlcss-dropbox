@@ -564,6 +564,12 @@ footer{
 
 /* effetti di hover */
 
+/* tasti navbar */
+
+.nav:hover{
+    border-bottom: 2px solid #0061FF;
+}
+
 /* pulsanti */
 
 .button-1:hover{
