@@ -467,11 +467,11 @@ h5{
 
 .line-2{
     min-height: 80px;
-    line-height: 80px;
     border-top: 1px solid black;
 }
 
 .underline-2{
+    line-height: 80px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -481,12 +481,12 @@ h5{
 
 .line-3{
     min-height: 80px;
-    line-height: 80px;
     border-top: 1px solid black;
     border-bottom: 1px solid black;
 }
 
 .underline-3{
+    line-height: 80px;
     display: flex;
     justify-content: space-between;
     align-items: center;
