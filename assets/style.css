@@ -336,11 +336,12 @@ h4{
     width: calc(100% / 3);
     display: flex;
     flex-wrap: wrap;
-    height: 600px;
+    aspect-ratio: 1/1;
 }
 
 .square{
-    flex: 0 0 calc(100% / 2);
+    width: 50%;
+    aspect-ratio: 1/1;
     position: relative;
 }
 
@@ -399,7 +400,7 @@ h4{
 }
 
 .logo-central{
-    width: 250px;
+    max-width: 100%;
     margin-bottom: 4rem;
 }
 
